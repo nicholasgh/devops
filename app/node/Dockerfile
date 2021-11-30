@@ -21,4 +21,4 @@ LABEL Nicholas GetHash
 EXPOSE  8080
 
 	# Rodar o app usando nodemon
-# CMD ["node", "/src/index.js"]
+CMD ["node", "/src/index.js"]

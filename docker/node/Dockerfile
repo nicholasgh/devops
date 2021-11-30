@@ -18,7 +18,7 @@ LABEL Nicholas GetHash
 # ADD . /src
 
 	# Expor porta 80
-EXPOSE  8080
+EXPOSE  3333
 
 	# Rodar o app usando nodemon
-CMD ["node", "/src/index.js"]
+CMD ["node", "/dist/shared/http/server.js"]

@@ -1,7 +1,7 @@
 # De onde deve ser pega a imagem e a versão. Nesse caso do repositório padrão do Docker, a imagem do node
 
 # FROM node:alpine
-FROM daveamit/node-alpine-grpc
+FROM node:current-alpine
 
 # Autor/Mantenedor
 LABEL Nicholas GetHash 
